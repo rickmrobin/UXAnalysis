@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.swift_versions = '4.0'
   s.source_files = 'UXAnalysis/Classes/**/*'
-  s.resource_bundles = {'UXAnalysis' => ['UXAnalysis/**/*.{xcdatamodeld}']}
+  s.resources = 'UXAnalysis/Assets/**/*.{xcdatamodeld}'
   s.requires_arc = true
   s.frameworks = 'UIKit', 'CoreData'
   # s.resource_bundles = {
