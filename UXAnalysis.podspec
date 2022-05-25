@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UXAnalysis'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'A library to capture every user action and analyse the user experience of the app.'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.swift_versions = '4.0'
   s.source_files = 'UXAnalysis/Classes/**/*'
-  
+  s.resource_bundles = {'UXAnalysis' => ['UXAnalysis/**/*.{xcdatamodeld}']}
+  s.requires_arc = true
+  s.frameworks = 'UIKit', 'CoreData'
   # s.resource_bundles = {
   #   'UXAnalysis' => ['UXAnalysis/Assets/*.png']
   # }

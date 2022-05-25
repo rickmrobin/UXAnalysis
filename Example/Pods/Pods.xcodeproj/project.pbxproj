@@ -15,7 +15,6 @@
 		72A6C71F799536E68941BA679DEED49A /* Pods-UXAnalysis_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0932E9895670B943080208DEBF0A39E4 /* Pods-UXAnalysis_Example-dummy.m */; };
 		74E01A5E5DB416E7C240C91A49F0F4A7 /* Pods-UXAnalysis_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45DE00507F28DC3AD337481A49D5F4BB /* Pods-UXAnalysis_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		89506DCB53343DFB812B34F5BDB68C27 /* UXAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = D259641E44D0C8C99F03AEBE37206715 /* UXAnalysis.swift */; };
-		97EEEF2D7A739ED66AA464164DE2332E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75871218E45EE0F325B16203B009212E /* ReplaceMe.swift */; };
 		9E9ABC77E9AE67779BD563925921CFD8 /* LocationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45307BD6A903E65774A871A16A1E11A8 /* LocationRequest.swift */; };
 		BA3CEC60F3239A407BA8D7BB1FE30F2C /* Pods-UXAnalysis_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4131FF166E4020F23B9B269ECF78C469 /* Pods-UXAnalysis_Tests-dummy.m */; };
 		C03A90BCD45C7D354314DFF11E725AB1 /* BakgroundTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAC26D984F2E683AC1A3719FCDB7C94 /* BakgroundTask.swift */; };
@@ -54,10 +53,9 @@
 		45307BD6A903E65774A871A16A1E11A8 /* LocationRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationRequest.swift; path = UXAnalysis/Classes/LocationRequest.swift; sourceTree = "<group>"; };
 		45DE00507F28DC3AD337481A49D5F4BB /* Pods-UXAnalysis_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UXAnalysis_Example-umbrella.h"; sourceTree = "<group>"; };
 		4EAC26D984F2E683AC1A3719FCDB7C94 /* BakgroundTask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BakgroundTask.swift; path = UXAnalysis/Classes/BakgroundTask.swift; sourceTree = "<group>"; };
-		721F9FB2CF5A9CC09A3FE3F761F53FE8 /* UXAnalysis */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UXAnalysis; path = UXAnalysis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		721F9FB2CF5A9CC09A3FE3F761F53FE8 /* UXAnalysis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UXAnalysis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7427EF11C53DC480EAA4FFC6E96CFFDD /* UXAnalysis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UXAnalysis.release.xcconfig; sourceTree = "<group>"; };
-		75871218E45EE0F325B16203B009212E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = UXAnalysis/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		77974C30630645305238DF4E747A9538 /* UXAnalysis-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UXAnalysis-prefix.pch"; sourceTree = "<group>"; };
 		7CFCCBCDA2250EC3BC8DC459B881EC81 /* CoreDataManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreDataManager.swift; path = UXAnalysis/Classes/CoreDataManager.swift; sourceTree = "<group>"; };
 		8CB8A50D21ED000A2250316A576611A4 /* Pods-UXAnalysis_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UXAnalysis_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -116,7 +114,6 @@
 				4EAC26D984F2E683AC1A3719FCDB7C94 /* BakgroundTask.swift */,
 				7CFCCBCDA2250EC3BC8DC459B881EC81 /* CoreDataManager.swift */,
 				45307BD6A903E65774A871A16A1E11A8 /* LocationRequest.swift */,
-				75871218E45EE0F325B16203B009212E /* ReplaceMe.swift */,
 				D259641E44D0C8C99F03AEBE37206715 /* UXAnalysis.swift */,
 				C7F9465C4D5E5B324BE1EA25B5813BCA /* Pod */,
 				85C1EDF0C9E685AD7E0FCA6074C3D8A4 /* Support Files */,
@@ -156,7 +153,7 @@
 			children = (
 				999757495235BE51D53A2D17AC9F2A21 /* Pods-UXAnalysis_Example */,
 				1775F917BC96A1C5676E2A5D4C0A8422 /* Pods-UXAnalysis_Tests */,
-				721F9FB2CF5A9CC09A3FE3F761F53FE8 /* UXAnalysis */,
+				721F9FB2CF5A9CC09A3FE3F761F53FE8 /* UXAnalysis.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -283,7 +280,7 @@
 			);
 			name = UXAnalysis;
 			productName = UXAnalysis;
-			productReference = 721F9FB2CF5A9CC09A3FE3F761F53FE8 /* UXAnalysis */;
+			productReference = 721F9FB2CF5A9CC09A3FE3F761F53FE8 /* UXAnalysis.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CAE2EBC1CDD8AAE7CFDA322559DADDEE /* Pods-UXAnalysis_Tests */ = {
@@ -402,7 +399,6 @@
 				35F00A93A39C7D179770BF616049A6A0 /* CoreDataManager.swift in Sources */,
 				EEE086C4283E2B9E00B74EC6 /* UXAModel.xcdatamodeld in Sources */,
 				9E9ABC77E9AE67779BD563925921CFD8 /* LocationRequest.swift in Sources */,
-				97EEEF2D7A739ED66AA464164DE2332E /* ReplaceMe.swift in Sources */,
 				89506DCB53343DFB812B34F5BDB68C27 /* UXAnalysis.swift in Sources */,
 				18B5B3088A5CBB762F08AD54F9E0B6D1 /* UXAnalysis-dummy.m in Sources */,
 			);
@@ -547,6 +543,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -609,6 +606,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

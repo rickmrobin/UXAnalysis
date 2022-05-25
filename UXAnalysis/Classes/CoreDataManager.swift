@@ -170,10 +170,6 @@ public class CoreDataManager : NSObject {
                   print("Opening the OperationQueue")
                   self!.deleteAllData(entity: "Event")
               })
-            
-                
-                
-                
             }catch let fetchErr {
                 print("❌ Failed to fetch Person:",fetchErr)
             }
@@ -181,18 +177,6 @@ public class CoreDataManager : NSObject {
             
            backgroundTask.end()
         }
-        
-     
-       
-        
-//        request.httpBody = httpBody
-//           let config = URLSessionConfiguration.default
-//           let session = URLSession(configuration: config)
-//
-//           let task = session.dataTask(with: request, completionHandler: {(data, response, error) in
-//               print(String(data: data!, encoding: .utf8)!)
-//           });
-
     }
         
     //Calucate percentage based on given values
