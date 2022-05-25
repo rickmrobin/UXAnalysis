@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UXAnalysis'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'A library to capture every user action and analyse the user experience of the app.'
 
 # This description is used to generate tags and improve search results.
