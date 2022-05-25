@@ -135,7 +135,7 @@ public class CoreDataManager : NSObject {
                 let events = try context.fetch(fetchRequest)
                 var touchArray = [NSDictionary]()
                 for (index,event) in events.enumerated() {
-                    print("Event \(index): \(event.screenName ?? "N/A") touchY: \(event.touchX) touchX: \(event.touchY)")
+                    print("Event log \(index): \(event.screenName ?? "N/A") touchY: \(event.touchX) touchX: \(event.touchY)")
                     let touchEvent: NSMutableDictionary = [:]
                     touchEvent["touchX"] = calculatePercentage(value: Double(event.screenSizeX), percentageVal: Double(event.touchX))
                     touchEvent["touchY"] =  calculatePercentage(value: Double(event.screenSizeY), percentageVal: Double(event.touchY))

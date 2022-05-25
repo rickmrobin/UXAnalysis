@@ -21,6 +21,7 @@
 		C03A90BCD45C7D354314DFF11E725AB1 /* BakgroundTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAC26D984F2E683AC1A3719FCDB7C94 /* BakgroundTask.swift */; };
 		E7E7812065F3AB0B4B346D4A7FA6785F /* UXAnalysis-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9A77FBEC50D09C288AD3AC308F0B57D /* UXAnalysis-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC0E702E925DFA4C2124768D485722AF /* Pods-UXAnalysis_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB47B1E0F64CF8D67D63039E12BC7C4E /* Pods-UXAnalysis_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEE086C4283E2B9E00B74EC6 /* UXAModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EEE086C2283E2B9E00B74EC6 /* UXAModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,22 +63,23 @@
 		8CB8A50D21ED000A2250316A576611A4 /* Pods-UXAnalysis_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UXAnalysis_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8D29CAB640BA499121FA7DCA58B81579 /* UXAnalysis.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UXAnalysis.modulemap; sourceTree = "<group>"; };
 		97F2F0F207D8161292E27A78B78DB10D /* Pods-UXAnalysis_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UXAnalysis_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9978A0CDA0E84D4D696391B3E4247829 /* UXAnalysis.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UXAnalysis.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9978A0CDA0E84D4D696391B3E4247829 /* UXAnalysis.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = UXAnalysis.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		999757495235BE51D53A2D17AC9F2A21 /* Pods-UXAnalysis_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-UXAnalysis_Example"; path = Pods_UXAnalysis_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3E61A345F7D4E11E032231C332ABF2A /* Pods-UXAnalysis_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UXAnalysis_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AB47B1E0F64CF8D67D63039E12BC7C4E /* Pods-UXAnalysis_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UXAnalysis_Tests-umbrella.h"; sourceTree = "<group>"; };
 		AFEF07E2DDCDAC872D1B892910A986B5 /* UXAnalysis-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UXAnalysis-dummy.m"; sourceTree = "<group>"; };
-		BB1084FF1C4FCF74AEE57E585F66AFD7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BB1084FF1C4FCF74AEE57E585F66AFD7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C08EAD464D9FEBA64D2BB33E51418D4B /* UXAnalysis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UXAnalysis.debug.xcconfig; sourceTree = "<group>"; };
 		C369009DE328BD3E7C5E8EF35BACAED3 /* Pods-UXAnalysis_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UXAnalysis_Tests.modulemap"; sourceTree = "<group>"; };
 		C3C6C4F9E3A69B6C23B496CBFF86FB82 /* Pods-UXAnalysis_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UXAnalysis_Example.modulemap"; sourceTree = "<group>"; };
-		C5516AA9B2A84919FF593E5F31EE8FE4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C5516AA9B2A84919FF593E5F31EE8FE4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C86A39A6D5F311E6585303284921A37A /* Pods-UXAnalysis_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UXAnalysis_Example-Info.plist"; sourceTree = "<group>"; };
 		D259641E44D0C8C99F03AEBE37206715 /* UXAnalysis.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UXAnalysis.swift; path = UXAnalysis/Classes/UXAnalysis.swift; sourceTree = "<group>"; };
 		DABD02A35F0F5894EE5AD608E6D8C396 /* Pods-UXAnalysis_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UXAnalysis_Tests-Info.plist"; sourceTree = "<group>"; };
 		DE341B17934AE30F1424A21454F42CE9 /* Pods-UXAnalysis_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UXAnalysis_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E9A77FBEC50D09C288AD3AC308F0B57D /* UXAnalysis-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UXAnalysis-umbrella.h"; sourceTree = "<group>"; };
+		EEE086C3283E2B9E00B74EC6 /* UXAModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UXAModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				D259641E44D0C8C99F03AEBE37206715 /* UXAnalysis.swift */,
 				C7F9465C4D5E5B324BE1EA25B5813BCA /* Pod */,
 				85C1EDF0C9E685AD7E0FCA6074C3D8A4 /* Support Files */,
+				EEE086C2283E2B9E00B74EC6 /* UXAModel.xcdatamodeld */,
 			);
 			name = UXAnalysis;
 			path = ../..;
@@ -397,6 +400,7 @@
 			files = (
 				C03A90BCD45C7D354314DFF11E725AB1 /* BakgroundTask.swift in Sources */,
 				35F00A93A39C7D179770BF616049A6A0 /* CoreDataManager.swift in Sources */,
+				EEE086C4283E2B9E00B74EC6 /* UXAModel.xcdatamodeld in Sources */,
 				9E9ABC77E9AE67779BD563925921CFD8 /* LocationRequest.swift in Sources */,
 				97EEEF2D7A739ED66AA464164DE2332E /* ReplaceMe.swift in Sources */,
 				89506DCB53343DFB812B34F5BDB68C27 /* UXAnalysis.swift in Sources */,
@@ -668,8 +672,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -781,6 +784,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EEE086C2283E2B9E00B74EC6 /* UXAModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EEE086C3283E2B9E00B74EC6 /* UXAModel.xcdatamodel */,
+			);
+			currentVersion = EEE086C3283E2B9E00B74EC6 /* UXAModel.xcdatamodel */;
+			name = UXAModel.xcdatamodeld;
+			path = UXAnalysis/Assets/UXAModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
