@@ -1,0 +1,22 @@
+{
+  "name": "UXAnalysis",
+  "version": "0.1.0",
+  "summary": "A short description of UXAnalysis.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/rickmrobin/UXAnalysis",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rickmrobin": "Maria.Robin"
+  },
+  "source": {
+    "git": "https://github.com/rickmrobin/UXAnalysis.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "UXAnalysis/Classes/**/*"
+}

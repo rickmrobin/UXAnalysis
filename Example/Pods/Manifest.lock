@@ -1,0 +1,16 @@
+PODS:
+  - UXAnalysis (0.1.0)
+
+DEPENDENCIES:
+  - UXAnalysis (from `../`)
+
+EXTERNAL SOURCES:
+  UXAnalysis:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UXAnalysis: 01615e3e906b235bd14a719d38f9d202c6175dd6
+
+PODFILE CHECKSUM: 9bf2e6396de08d80bd768b8e811474e8a34b015e
+
+COCOAPODS: 1.11.3

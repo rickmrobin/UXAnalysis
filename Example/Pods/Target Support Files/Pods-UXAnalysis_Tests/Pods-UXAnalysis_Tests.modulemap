@@ -1,0 +1,6 @@
+framework module Pods_UXAnalysis_Tests {
+  umbrella header "Pods-UXAnalysis_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
