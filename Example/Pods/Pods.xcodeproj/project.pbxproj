@@ -8,80 +8,84 @@
 
 /* Begin PBXBuildFile section */
 		08E37B3B39C247ED13FB7032339A528C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		106C2B408DD91C1007571D633FC6150A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		18B5B3088A5CBB762F08AD54F9E0B6D1 /* UXAnalysis-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFEF07E2DDCDAC872D1B892910A986B5 /* UXAnalysis-dummy.m */; };
+		35F00A93A39C7D179770BF616049A6A0 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFCCBCDA2250EC3BC8DC459B881EC81 /* CoreDataManager.swift */; };
 		4384106B3E4168C4471F08FA83ECB206 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		68EA168E6361C306A61E7A6F794C4713 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		6A56E8C5F5288FAA7613287E5061604A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A65CD99F976EA335D3C08E7D40FCEBD /* ReplaceMe.swift */; };
 		72A6C71F799536E68941BA679DEED49A /* Pods-UXAnalysis_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0932E9895670B943080208DEBF0A39E4 /* Pods-UXAnalysis_Example-dummy.m */; };
 		74E01A5E5DB416E7C240C91A49F0F4A7 /* Pods-UXAnalysis_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45DE00507F28DC3AD337481A49D5F4BB /* Pods-UXAnalysis_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A2A3A4E4D8991C112C462742226638ED /* UXAnalysis-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B39F86DDAFBE9E23C60C9A643CFD9AC /* UXAnalysis-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89506DCB53343DFB812B34F5BDB68C27 /* UXAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = D259641E44D0C8C99F03AEBE37206715 /* UXAnalysis.swift */; };
+		97EEEF2D7A739ED66AA464164DE2332E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75871218E45EE0F325B16203B009212E /* ReplaceMe.swift */; };
+		9E9ABC77E9AE67779BD563925921CFD8 /* LocationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45307BD6A903E65774A871A16A1E11A8 /* LocationRequest.swift */; };
 		BA3CEC60F3239A407BA8D7BB1FE30F2C /* Pods-UXAnalysis_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4131FF166E4020F23B9B269ECF78C469 /* Pods-UXAnalysis_Tests-dummy.m */; };
+		C03A90BCD45C7D354314DFF11E725AB1 /* BakgroundTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAC26D984F2E683AC1A3719FCDB7C94 /* BakgroundTask.swift */; };
+		E7E7812065F3AB0B4B346D4A7FA6785F /* UXAnalysis-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9A77FBEC50D09C288AD3AC308F0B57D /* UXAnalysis-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC0E702E925DFA4C2124768D485722AF /* Pods-UXAnalysis_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB47B1E0F64CF8D67D63039E12BC7C4E /* Pods-UXAnalysis_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EEE08676283E111A00B74EC6 /* UXAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE08675283E111A00B74EC6 /* UXAnalysis.swift */; };
-		EEE08678283E119200B74EC6 /* LocationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE08677283E119200B74EC6 /* LocationRequest.swift */; };
-		F417063301F4FA0E826F960583EB419E /* UXAnalysis-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2308756782252B491E5D9691E916F6F1 /* UXAnalysis-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		084C161FB73E0526CF311BBF2F467B03 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E1E0D2D6C074E94B8499990BEDE643C0;
-			remoteInfo = "Pods-UXAnalysis_Example";
-		};
-		F2ADE3E57897061A61A9C67043E9F846 /* PBXContainerItemProxy */ = {
+		58E31E96E5BE70014F8F9464868F4863 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 642C914B1B991F9D4E81732AC3AC39C8;
 			remoteInfo = UXAnalysis;
 		};
+		9B9849B8BE61D5F8BB4D9D6CFEB8AE6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1E0D2D6C074E94B8499990BEDE643C0;
+			remoteInfo = "Pods-UXAnalysis_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0932E9895670B943080208DEBF0A39E4 /* Pods-UXAnalysis_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UXAnalysis_Example-dummy.m"; sourceTree = "<group>"; };
 		0E5091A960478D36D625692E08F25450 /* Pods-UXAnalysis_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UXAnalysis_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		117518D79E4B1C21B0C807A5B6D95447 /* UXAnalysis-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UXAnalysis-Info.plist"; sourceTree = "<group>"; };
 		131B5C633B07BB3C37D3A42E5E4112EE /* Pods-UXAnalysis_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UXAnalysis_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		155457600B961B630151B99227EE78A6 /* UXAnalysis-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UXAnalysis-Info.plist"; sourceTree = "<group>"; };
 		1775F917BC96A1C5676E2A5D4C0A8422 /* Pods-UXAnalysis_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-UXAnalysis_Tests"; path = Pods_UXAnalysis_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E7583B71F493E6554C3B82E62793498 /* Pods-UXAnalysis_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UXAnalysis_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		21C7F85DB7FC47313C79541F7A66C4F9 /* Pods-UXAnalysis_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UXAnalysis_Example-frameworks.sh"; sourceTree = "<group>"; };
-		2308756782252B491E5D9691E916F6F1 /* UXAnalysis-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UXAnalysis-dummy.m"; sourceTree = "<group>"; };
-		28CEA34B7AD3D009AD9564A19CB9CB51 /* UXAnalysis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UXAnalysis.release.xcconfig; sourceTree = "<group>"; };
-		2B39F86DDAFBE9E23C60C9A643CFD9AC /* UXAnalysis-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UXAnalysis-umbrella.h"; sourceTree = "<group>"; };
 		2F3B2A706FDDEB1BBB59E933D4096625 /* Pods-UXAnalysis_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UXAnalysis_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4131FF166E4020F23B9B269ECF78C469 /* Pods-UXAnalysis_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UXAnalysis_Tests-dummy.m"; sourceTree = "<group>"; };
-		4400EB30FD7E68BC0089B77482FBBF93 /* UXAnalysis-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UXAnalysis-prefix.pch"; sourceTree = "<group>"; };
+		45307BD6A903E65774A871A16A1E11A8 /* LocationRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationRequest.swift; path = UXAnalysis/Classes/LocationRequest.swift; sourceTree = "<group>"; };
 		45DE00507F28DC3AD337481A49D5F4BB /* Pods-UXAnalysis_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UXAnalysis_Example-umbrella.h"; sourceTree = "<group>"; };
-		4E6E4610F6B6BBF0B56024E83FE70E84 /* UXAnalysis.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = UXAnalysis.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5351E3221D0EEAA13E5F9460D2B02FF4 /* UXAnalysis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UXAnalysis.debug.xcconfig; sourceTree = "<group>"; };
-		6A65CD99F976EA335D3C08E7D40FCEBD /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = UXAnalysis/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		4EAC26D984F2E683AC1A3719FCDB7C94 /* BakgroundTask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BakgroundTask.swift; path = UXAnalysis/Classes/BakgroundTask.swift; sourceTree = "<group>"; };
 		721F9FB2CF5A9CC09A3FE3F761F53FE8 /* UXAnalysis */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UXAnalysis; path = UXAnalysis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7427EF11C53DC480EAA4FFC6E96CFFDD /* UXAnalysis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UXAnalysis.release.xcconfig; sourceTree = "<group>"; };
+		75871218E45EE0F325B16203B009212E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = UXAnalysis/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		77974C30630645305238DF4E747A9538 /* UXAnalysis-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UXAnalysis-prefix.pch"; sourceTree = "<group>"; };
+		7CFCCBCDA2250EC3BC8DC459B881EC81 /* CoreDataManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreDataManager.swift; path = UXAnalysis/Classes/CoreDataManager.swift; sourceTree = "<group>"; };
 		8CB8A50D21ED000A2250316A576611A4 /* Pods-UXAnalysis_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UXAnalysis_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8EA92DD21EB6B257319E246E482484D8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8D29CAB640BA499121FA7DCA58B81579 /* UXAnalysis.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UXAnalysis.modulemap; sourceTree = "<group>"; };
 		97F2F0F207D8161292E27A78B78DB10D /* Pods-UXAnalysis_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UXAnalysis_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9914CF0A4E871010640458FABE402324 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9978A0CDA0E84D4D696391B3E4247829 /* UXAnalysis.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UXAnalysis.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		999757495235BE51D53A2D17AC9F2A21 /* Pods-UXAnalysis_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-UXAnalysis_Example"; path = Pods_UXAnalysis_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3E61A345F7D4E11E032231C332ABF2A /* Pods-UXAnalysis_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UXAnalysis_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AB47B1E0F64CF8D67D63039E12BC7C4E /* Pods-UXAnalysis_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UXAnalysis_Tests-umbrella.h"; sourceTree = "<group>"; };
+		AFEF07E2DDCDAC872D1B892910A986B5 /* UXAnalysis-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UXAnalysis-dummy.m"; sourceTree = "<group>"; };
+		BB1084FF1C4FCF74AEE57E585F66AFD7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C08EAD464D9FEBA64D2BB33E51418D4B /* UXAnalysis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UXAnalysis.debug.xcconfig; sourceTree = "<group>"; };
 		C369009DE328BD3E7C5E8EF35BACAED3 /* Pods-UXAnalysis_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UXAnalysis_Tests.modulemap"; sourceTree = "<group>"; };
 		C3C6C4F9E3A69B6C23B496CBFF86FB82 /* Pods-UXAnalysis_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UXAnalysis_Example.modulemap"; sourceTree = "<group>"; };
+		C5516AA9B2A84919FF593E5F31EE8FE4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		C86A39A6D5F311E6585303284921A37A /* Pods-UXAnalysis_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UXAnalysis_Example-Info.plist"; sourceTree = "<group>"; };
+		D259641E44D0C8C99F03AEBE37206715 /* UXAnalysis.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UXAnalysis.swift; path = UXAnalysis/Classes/UXAnalysis.swift; sourceTree = "<group>"; };
 		DABD02A35F0F5894EE5AD608E6D8C396 /* Pods-UXAnalysis_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UXAnalysis_Tests-Info.plist"; sourceTree = "<group>"; };
 		DE341B17934AE30F1424A21454F42CE9 /* Pods-UXAnalysis_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UXAnalysis_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EEE08675283E111A00B74EC6 /* UXAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UXAnalysis.swift; path = UXAnalysis/Classes/UXAnalysis.swift; sourceTree = "<group>"; };
-		EEE08677283E119200B74EC6 /* LocationRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocationRequest.swift; path = UXAnalysis/Classes/LocationRequest.swift; sourceTree = "<group>"; };
-		FB669D1FF9FE1C50D2E9BAE87F1C2EB5 /* UXAnalysis.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UXAnalysis.modulemap; sourceTree = "<group>"; };
+		E9A77FBEC50D09C288AD3AC308F0B57D /* UXAnalysis-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UXAnalysis-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3E6086ACEEC05A14D325CCF615BB237E /* Frameworks */ = {
+		616AAF01D8DA1B264004520CD4183C49 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68EA168E6361C306A61E7A6F794C4713 /* Foundation.framework in Frameworks */,
+				106C2B408DD91C1007571D633FC6150A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +108,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A365A74D490128BB66FBE654C1F0EC5 /* UXAnalysis */ = {
+			isa = PBXGroup;
+			children = (
+				4EAC26D984F2E683AC1A3719FCDB7C94 /* BakgroundTask.swift */,
+				7CFCCBCDA2250EC3BC8DC459B881EC81 /* CoreDataManager.swift */,
+				45307BD6A903E65774A871A16A1E11A8 /* LocationRequest.swift */,
+				75871218E45EE0F325B16203B009212E /* ReplaceMe.swift */,
+				D259641E44D0C8C99F03AEBE37206715 /* UXAnalysis.swift */,
+				C7F9465C4D5E5B324BE1EA25B5813BCA /* Pod */,
+				85C1EDF0C9E685AD7E0FCA6074C3D8A4 /* Support Files */,
+			);
+			name = UXAnalysis;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		0DF7E1444ACC11DADAE57ECDBB3E645E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A365A74D490128BB66FBE654C1F0EC5 /* UXAnalysis */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		281095715AEEF5EB05B5A26C91900081 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,14 +138,6 @@
 				DC5FAEB7FA78FE42DF3DABF87EA95FD6 /* Pods-UXAnalysis_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		2F71C78CC4D73611811CC15E34E62C1C /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F9E78815A1F2ECF4469F7A877E3D0C39 /* UXAnalysis */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -139,14 +158,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		809C32148E0C0D77D138FCDF317CDF83 /* Pod */ = {
+		85C1EDF0C9E685AD7E0FCA6074C3D8A4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8EA92DD21EB6B257319E246E482484D8 /* LICENSE */,
-				9914CF0A4E871010640458FABE402324 /* README.md */,
-				4E6E4610F6B6BBF0B56024E83FE70E84 /* UXAnalysis.podspec */,
+				8D29CAB640BA499121FA7DCA58B81579 /* UXAnalysis.modulemap */,
+				AFEF07E2DDCDAC872D1B892910A986B5 /* UXAnalysis-dummy.m */,
+				155457600B961B630151B99227EE78A6 /* UXAnalysis-Info.plist */,
+				77974C30630645305238DF4E747A9538 /* UXAnalysis-prefix.pch */,
+				E9A77FBEC50D09C288AD3AC308F0B57D /* UXAnalysis-umbrella.h */,
+				C08EAD464D9FEBA64D2BB33E51418D4B /* UXAnalysis.debug.xcconfig */,
+				7427EF11C53DC480EAA4FFC6E96CFFDD /* UXAnalysis.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UXAnalysis";
 			sourceTree = "<group>";
 		};
 		956DF8F8201266079C24C39BCD9BD2AD /* Pods-UXAnalysis_Example */ = {
@@ -166,26 +190,21 @@
 			path = "Target Support Files/Pods-UXAnalysis_Example";
 			sourceTree = "<group>";
 		};
-		C0033B1A098F9EC6ECD3BAF195023FC9 /* Support Files */ = {
+		C7F9465C4D5E5B324BE1EA25B5813BCA /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				FB669D1FF9FE1C50D2E9BAE87F1C2EB5 /* UXAnalysis.modulemap */,
-				2308756782252B491E5D9691E916F6F1 /* UXAnalysis-dummy.m */,
-				117518D79E4B1C21B0C807A5B6D95447 /* UXAnalysis-Info.plist */,
-				4400EB30FD7E68BC0089B77482FBBF93 /* UXAnalysis-prefix.pch */,
-				2B39F86DDAFBE9E23C60C9A643CFD9AC /* UXAnalysis-umbrella.h */,
-				5351E3221D0EEAA13E5F9460D2B02FF4 /* UXAnalysis.debug.xcconfig */,
-				28CEA34B7AD3D009AD9564A19CB9CB51 /* UXAnalysis.release.xcconfig */,
+				C5516AA9B2A84919FF593E5F31EE8FE4 /* LICENSE */,
+				BB1084FF1C4FCF74AEE57E585F66AFD7 /* README.md */,
+				9978A0CDA0E84D4D696391B3E4247829 /* UXAnalysis.podspec */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/UXAnalysis";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				2F71C78CC4D73611811CC15E34E62C1C /* Development Pods */,
+				0DF7E1444ACC11DADAE57ECDBB3E645E /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				5E377467BA049FC4674C0C42B06E39C1 /* Products */,
 				281095715AEEF5EB05B5A26C91900081 /* Targets Support Files */,
@@ -216,35 +235,22 @@
 			path = "Target Support Files/Pods-UXAnalysis_Tests";
 			sourceTree = "<group>";
 		};
-		F9E78815A1F2ECF4469F7A877E3D0C39 /* UXAnalysis */ = {
-			isa = PBXGroup;
-			children = (
-				6A65CD99F976EA335D3C08E7D40FCEBD /* ReplaceMe.swift */,
-				809C32148E0C0D77D138FCDF317CDF83 /* Pod */,
-				C0033B1A098F9EC6ECD3BAF195023FC9 /* Support Files */,
-				EEE08675283E111A00B74EC6 /* UXAnalysis.swift */,
-				EEE08677283E119200B74EC6 /* LocationRequest.swift */,
-			);
-			name = UXAnalysis;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4C8F19F4CAF564E6476736498C832C10 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A2A3A4E4D8991C112C462742226638ED /* UXAnalysis-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6389EB9DAB3366840973CB6FA9CFE43F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				74E01A5E5DB416E7C240C91A49F0F4A7 /* Pods-UXAnalysis_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79386273FF3538DC2ABF84BBBB078710 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7E7812065F3AB0B4B346D4A7FA6785F /* UXAnalysis-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,12 +267,12 @@
 /* Begin PBXNativeTarget section */
 		642C914B1B991F9D4E81732AC3AC39C8 /* UXAnalysis */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 88A24ECD512E18579D8D7266AC3EB357 /* Build configuration list for PBXNativeTarget "UXAnalysis" */;
+			buildConfigurationList = 5E2DDFA32771FE0CEC881D1436570FC3 /* Build configuration list for PBXNativeTarget "UXAnalysis" */;
 			buildPhases = (
-				4C8F19F4CAF564E6476736498C832C10 /* Headers */,
-				B3EB1F1392E2AEA0580EFD1436590C2A /* Sources */,
-				3E6086ACEEC05A14D325CCF615BB237E /* Frameworks */,
-				0FA3E55A4978922ADE5F94D3F4D17006 /* Resources */,
+				79386273FF3538DC2ABF84BBBB078710 /* Headers */,
+				AAC8674C3F88D05A727B9D3EDA50C25E /* Sources */,
+				616AAF01D8DA1B264004520CD4183C49 /* Frameworks */,
+				2B09FFF4BC2F6EAE8377BF92D5F577AF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -289,7 +295,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				C9628F9CD39EEA210A21EF21777631DD /* PBXTargetDependency */,
+				75CEFFB91A33932423BFC098C1E1C91C /* PBXTargetDependency */,
 			);
 			name = "Pods-UXAnalysis_Tests";
 			productName = Pods_UXAnalysis_Tests;
@@ -308,7 +314,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				4CED08092A86A7B218F4FDFC10EE04D6 /* PBXTargetDependency */,
+				F229BAC608CBE3C81306D37BC399D78F /* PBXTargetDependency */,
 			);
 			name = "Pods-UXAnalysis_Example";
 			productName = Pods_UXAnalysis_Example;
@@ -345,7 +351,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0FA3E55A4978922ADE5F94D3F4D17006 /* Resources */ = {
+		2B09FFF4BC2F6EAE8377BF92D5F577AF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -385,31 +391,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3EB1F1392E2AEA0580EFD1436590C2A /* Sources */ = {
+		AAC8674C3F88D05A727B9D3EDA50C25E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A56E8C5F5288FAA7613287E5061604A /* ReplaceMe.swift in Sources */,
-				EEE08676283E111A00B74EC6 /* UXAnalysis.swift in Sources */,
-				EEE08678283E119200B74EC6 /* LocationRequest.swift in Sources */,
-				F417063301F4FA0E826F960583EB419E /* UXAnalysis-dummy.m in Sources */,
+				C03A90BCD45C7D354314DFF11E725AB1 /* BakgroundTask.swift in Sources */,
+				35F00A93A39C7D179770BF616049A6A0 /* CoreDataManager.swift in Sources */,
+				9E9ABC77E9AE67779BD563925921CFD8 /* LocationRequest.swift in Sources */,
+				97EEEF2D7A739ED66AA464164DE2332E /* ReplaceMe.swift in Sources */,
+				89506DCB53343DFB812B34F5BDB68C27 /* UXAnalysis.swift in Sources */,
+				18B5B3088A5CBB762F08AD54F9E0B6D1 /* UXAnalysis-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4CED08092A86A7B218F4FDFC10EE04D6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = UXAnalysis;
-			target = 642C914B1B991F9D4E81732AC3AC39C8 /* UXAnalysis */;
-			targetProxy = F2ADE3E57897061A61A9C67043E9F846 /* PBXContainerItemProxy */;
-		};
-		C9628F9CD39EEA210A21EF21777631DD /* PBXTargetDependency */ = {
+		75CEFFB91A33932423BFC098C1E1C91C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-UXAnalysis_Example";
 			target = E1E0D2D6C074E94B8499990BEDE643C0 /* Pods-UXAnalysis_Example */;
-			targetProxy = 084C161FB73E0526CF311BBF2F467B03 /* PBXContainerItemProxy */;
+			targetProxy = 9B9849B8BE61D5F8BB4D9D6CFEB8AE6F /* PBXContainerItemProxy */;
+		};
+		F229BAC608CBE3C81306D37BC399D78F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UXAnalysis;
+			target = 642C914B1B991F9D4E81732AC3AC39C8 /* UXAnalysis */;
+			targetProxy = 58E31E96E5BE70014F8F9464868F4863 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -512,9 +520,9 @@
 			};
 			name = Debug;
 		};
-		33DC73A519FDFC2B773AA34F4C98D808 /* Release */ = {
+		2C8178FF1EEB95366A038EA8E8617C22 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28CEA34B7AD3D009AD9564A19CB9CB51 /* UXAnalysis.release.xcconfig */;
+			baseConfigurationReference = C08EAD464D9FEBA64D2BB33E51418D4B /* UXAnalysis.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -537,11 +545,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		5A370484BB36881191CFD4FC297AC8D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -575,9 +582,9 @@
 			};
 			name = Debug;
 		};
-		8BAAB3DAFA52B6D0DFAECBFA844D064B /* Debug */ = {
+		787DC5294B89B85C13CD70F9485B280A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5351E3221D0EEAA13E5F9460D2B02FF4 /* UXAnalysis.debug.xcconfig */;
+			baseConfigurationReference = 7427EF11C53DC480EAA4FFC6E96CFFDD /* UXAnalysis.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -600,10 +607,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -660,7 +668,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -753,20 +762,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		5E2DDFA32771FE0CEC881D1436570FC3 /* Build configuration list for PBXNativeTarget "UXAnalysis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C8178FF1EEB95366A038EA8E8617C22 /* Debug */,
+				787DC5294B89B85C13CD70F9485B280A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7FF9ABCD620D573EDF7A32C14BB89402 /* Build configuration list for PBXNativeTarget "Pods-UXAnalysis_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A370484BB36881191CFD4FC297AC8D5 /* Debug */,
 				F9BBFCBC8478A43092E871D396C5BE69 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		88A24ECD512E18579D8D7266AC3EB357 /* Build configuration list for PBXNativeTarget "UXAnalysis" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8BAAB3DAFA52B6D0DFAECBFA844D064B /* Debug */,
-				33DC73A519FDFC2B773AA34F4C98D808 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -5,6 +5,8 @@ platform :ios, '9.0'
 target 'UXAnalysis_Example' do
   pod 'UXAnalysis', :path => '../'
 
+
+
   target 'UXAnalysis_Tests' do
     inherit! :search_paths
 

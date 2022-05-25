@@ -27,7 +27,7 @@ public class UXAnalysis {
         print("init called")
         LocationRequest.shared.startLocationUpdate()
         
-        NotificationCenter.default.addObserver(
+        let token = NotificationCenter.default.addObserver(
             forName: NSNotification.Name.UIApplicationWillResignActive,
             object: nil,
             queue: .main
