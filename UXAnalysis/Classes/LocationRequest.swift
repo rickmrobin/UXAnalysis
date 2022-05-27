@@ -18,14 +18,31 @@ class LocationRequest: NSObject, CLLocationManagerDelegate {
     }
     
     func startLocationUpdate() {
-        if CLLocationManager.locationServicesEnabled() {
-               print("before setting delegate")
-               locationManager.delegate = self
-               locationManager.requestWhenInUseAuthorization()
-               print("after setting delegate")
-               locationManager.desiredAccuracy = kCLLocationAccuracyThreeKilometers
-               locationManager.startUpdatingLocation()
-           }
+        locationManager.delegate = self
+        if hasLocationPermission() {
+           
+            requestLocationUpdate()
+               
+        } else {
+            locationManager.requestWhenInUseAuthorization()
+        }
+         
+    }
+    
+    func requestLocationUpdate() {
+        locationManager.requestWhenInUseAuthorization()
+        locationManager.desiredAccuracy = kCLLocationAccuracyThreeKilometers
+        locationManager.startUpdatingLocation()
+    }
+    
+
+    func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
+        if (status == CLAuthorizationStatus.denied) {
+                   // The user denied authorization
+       } else if (status == CLAuthorizationStatus.authorizedWhenInUse) || (status == CLAuthorizationStatus.authorizedAlways){
+           // The user accepted authorization
+           requestLocationUpdate()
+       }
     }
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {

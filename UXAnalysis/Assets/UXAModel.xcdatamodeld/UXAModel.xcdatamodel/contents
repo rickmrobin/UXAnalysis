@@ -8,12 +8,13 @@
         <attribute name="screenSizeX" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="screenSizeY" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="sessionID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="timeStamp" optional="YES" attributeType="String"/>
         <attribute name="touchX" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
         <attribute name="touchY" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
         <attribute name="uniqueID" optional="YES" attributeType="String"/>
         <attribute name="userToken" optional="YES" attributeType="String"/>
     </entity>
     <elements>
-        <element name="Event" positionX="-36" positionY="9" width="128" height="194"/>
+        <element name="Event" positionX="-36" positionY="9" width="128" height="209"/>
     </elements>
 </model>

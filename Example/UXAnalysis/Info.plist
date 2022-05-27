@@ -22,6 +22,17 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>location required for fetching user location to log each touch event</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>location required for fetching user location to log each touch event</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>location required for fetching user location to log each touch event</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>processing</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

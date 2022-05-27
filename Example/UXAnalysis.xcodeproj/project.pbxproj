@@ -15,6 +15,8 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		63633F47D37F64B3D8DC1EDB /* Pods_UXAnalysis_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B0116534B12357388318D84 /* Pods_UXAnalysis_Tests.framework */; };
 		94E2FA8067ED0F6674B582C2 /* Pods_UXAnalysis_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7008DA6EC5EFA490DC39F34C /* Pods_UXAnalysis_Example.framework */; };
+		EEE086C6283E514200B74EC6 /* AnUIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE086C5283E514200B74EC6 /* AnUIApplication.swift */; };
+		EEE086C8283E516200B74EC6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE086C7283E516200B74EC6 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		7F29828B2BF58769FCA1F8CF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		91003DD811D70440DCAF76A5 /* Pods-UXAnalysis_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UXAnalysis_Tests.debug.xcconfig"; path = "Target Support Files/Pods-UXAnalysis_Tests/Pods-UXAnalysis_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A1F62FF7C5D594AD27DB0989 /* Pods-UXAnalysis_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UXAnalysis_Example.debug.xcconfig"; path = "Target Support Files/Pods-UXAnalysis_Example/Pods-UXAnalysis_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EEE086C5283E514200B74EC6 /* AnUIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnUIApplication.swift; sourceTree = "<group>"; };
+		EEE086C7283E516200B74EC6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		FE92CE3E0B30BE1983CE3657 /* Pods-UXAnalysis_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UXAnalysis_Example.release.xcconfig"; path = "Target Support Files/Pods-UXAnalysis_Example/Pods-UXAnalysis_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,6 +103,8 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				EEE086C5283E514200B74EC6 /* AnUIApplication.swift */,
+				EEE086C7283E516200B74EC6 /* main.swift */,
 			);
 			name = "Example for UXAnalysis";
 			path = UXAnalysis;
@@ -333,6 +339,8 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				EEE086C8283E516200B74EC6 /* main.swift in Sources */,
+				EEE086C6283E514200B74EC6 /* AnUIApplication.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
